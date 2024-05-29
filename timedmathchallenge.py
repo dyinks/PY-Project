@@ -4,7 +4,7 @@ import time
 MAX_VAL = 12
 MIN_VAL = 1
 OPERATORS = ["+", "-", "*"]
-TOTAL_PROB = 5
+TOTAL_PROB = 10
 
 def gen_prob():
     left = random.randint(MIN_VAL, MAX_VAL)
